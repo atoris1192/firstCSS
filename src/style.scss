@@ -41,4 +41,38 @@ section {
   p  {
     margin-top: 0;
   }
+  .icon {
+    border-radius: 50%;
+    border: 5px solid white;
+    // box-shadow: x y blur color
+    box-shadow: 0 0 5px gray;
+  }
+  .works {
+    width: 400px;
+    margin: 60px auto;
+    border-bottom: 1px solid #eee;
+    h1, p {
+      text-align: center;
+    }
+    > section {
+      margion-bottom: 40px;
+    }
+  }
+}
+
+footer {
+  width: 400px;
+  margin: 0 auto 60px;
+  ul {
+    margin: 0;
+    list-style-type: none;
+    padding-left: 0;
+    li {
+      display: inline-block;
+      a:hover {
+        opacity: .6;
+      }
+    }
+  }
+
 }
