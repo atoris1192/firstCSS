@@ -4,7 +4,7 @@ body {
   margin: 0;
 }
 header {
-  background-color: pink;
+  // background-color: pink;
   text-align: right;
   padding: 10px;
   height: 240px;
@@ -24,6 +24,7 @@ header {
       a {
         text-decoration: none;
         font: inherit;
+        color: #eee;
         &:hover {
           color: royalblue;
         }
@@ -63,10 +64,16 @@ section {
 footer {
   width: 400px;
   margin: 0 auto 60px;
+  p {
+    color: lightgray;
+    font-size: 14px;
+    text-align: right;
+  }
   ul {
     margin: 0;
     list-style-type: none;
     padding-left: 0;
+    float: left;
     li {
       display: inline-block;
       a:hover {
@@ -74,5 +81,7 @@ footer {
       }
     }
   }
-
+}
+.current {
+  border-bottom: 4px solid royalblue;
 }
