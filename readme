@@ -1,4 +1,4 @@
 
-`parcel src/index.html --open`
+`parcel src/index.pug --open`
 title: dotinstall はじめてのCSS
 
