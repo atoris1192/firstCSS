@@ -1,10 +1,35 @@
-doctype
+doctype html
 html(lang="ja")
   head
     meta(charaset="utf-8")
     title css
   body
+    header
+      nav
+        ul
+          li
+            a(href="index.pug")
+              | HOME
+          li
+            a(href="about.pug")
+              | ABOUT
+        img(src="http://placehold.it/400x130/27709b/ffffff" width="400" height="130" alt="ヘッダー画像")
+
     block content
+
+    footer
+      ul
+        li
+          a(href="mailto:taguchi@gmail.com" target="_blank")
+            img(src="http://placehold.it/20x20/27709b/ffffff" width="20" height="20" alt="メール送信")
+        li
+          a(href="https://dotinstall.com" target="_blank")
+            img(src="http://placehold.it/20x20/27709b/ffffff" width="20" height="20" alt="ブログサイトへ")
+        li
+          a(href="https://dotinstall.com" target="_blank")
+            img(src="http://placehold.it/20x20/27709b/ffffff" width="20" height="20" alt="写真サイトへ")
+      p (c) Taro Yamada
+
     script(src="./index.js")
-    
-    
+        
+        
