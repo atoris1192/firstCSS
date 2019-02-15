@@ -1,7 +1,7 @@
 {
   "scripts":{
     "start": "parcel ./src/index.pug",
-   "build": "parcel build ./src/index.pug" 
+    "build": "parcel build ./src/index.pug"
   },
   "name": "03",
   "version": "1.0.0",
