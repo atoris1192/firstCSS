@@ -1,9 +1,14 @@
 {
+  "scripts":{
+    "start": "parcel ./src/index.pug",
+   "build": "parcel build ./src/index.pug" 
+  },
   "name": "03",
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
   "devDependencies": {
+    "cssnano": "^4.1.10",
     "pug": "^2.0.3",
     "sass": "^1.15.2"
   }
